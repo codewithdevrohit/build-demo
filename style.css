@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#hero{
+    background-image: url("./front.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    height: 100vh !important;
+}
+#hero .row{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+
+}
+a{
+    font-size: 1.5rem;
+    color: white !important;
+}
+a:hover{
+    color: red !important;
+}
+#about{
+    background-color:rgba(240, 230, 140, 0.486);
+}
+
+#about img{
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+
+#portfolio {
+    background-color: rgba(137, 43, 226, 0.11);
+}
+
+#rk{
+    background-image: url("./front.jpg");
+    
+}
+
+#rk:hover{
+    color: brown !important;
+}
+
+#blog{
+    background-color: rgba(0, 0, 255, 0.13);
+}
+
+#service i{
+    color: orangered !important;
+}
+#service h1{
+    color:aqua(255, 0, 170, 0.11)!important;
+}
+ #service {
+ width: 100P% !important;
+ }
+
+ #features {
+    /* height: 0vh !important; */
+    width: 100% !important;
+    background-color: bisque;
+ }
+#features .row img{
+    border-radius: 100% !important;
+    }
+
+
+#team .row img{
+    size: 10 rem !important;
+    border-radius: 50%;
+    transition: 2 ease-in-out;
+    
+}
+
+#team img:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+#team {
+    background-color: rgba(127, 255, 212, 0.459);
+}
+
+#team i{
+    color: orangered !important;
+}
+
+
+#contcatus a{
+    color: black;
+}
+    #contactus{
+        background-image: url("https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        background-position: center;
+    }
+
+
